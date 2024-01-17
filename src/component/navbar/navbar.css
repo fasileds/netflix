@@ -1,0 +1,77 @@
+.navbar{
+    width: 95%;
+    color: rgb(141, 125, 125);
+    font-size: 14px;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    background-color: linear-gradient(to top,transparent 0%,rgb(0,0,0,0.3) 50%);
+    
+   
+}
+.navbarScrolled{
+    background-color: var(--main-color);
+    position: fixed;
+    width: 95%;
+    color: white;
+    font-size: 14px;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+
+.continer{
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+}
+.imgLeft{
+    height: 25px;
+    margin-right: 40px;
+}
+.left{
+    display: flex;
+    align-items: center;
+    
+}
+span{
+    margin: 20px;
+    cursor: pointer;
+}
+.right{
+    display: flex;
+    align-items: center;
+}
+.rightImg{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.icons{
+    margin: 0px 15px;
+    cursor: pointer;
+}
+.profile{
+    &:hover{
+        .options{
+            display: flex;
+            flex-direction: column;
+            margin: 0px;
+            position: absolute;
+        }
+    }
+    span{
+        padding: 10px;
+        cursor: pointer;
+    }
+}
+.options{
+    display: none;
+    margin: 0px;
+    background-color: var(--main-color);
+    border-radius:5px ;
+}

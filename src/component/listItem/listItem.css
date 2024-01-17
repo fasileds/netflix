@@ -1,0 +1,55 @@
+.listItem{
+    width: 225px;
+    height: 120px;
+    background-color: var(--mai-color);
+    border-radius: 10px;
+    margin-right: 5px;
+    overflow: hidden;
+   &:hover{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: -150px;
+    box-shadow: 6px -10px 22px 11px rgba(207,148,34,0.75);
+-webkit-box-shadow: 6px -10px 22px 11px rgba(207,148,34,0.75);
+-moz-box-shadow: 6px -10px 22px 11px rgba(207,148,34,0.75);
+    .image3{
+        height: 140px;
+    }
+    }
+    color: rgb(252, 247, 247);
+}
+.image3{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+video{
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    position: absolute;
+}
+.icons{
+    padding: 20px;
+    display: flex;
+
+}
+.itemInfo{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+
+}
+.icons{
+    display: flex;
+    margin-bottom:10px ;
+}
+.icon{
+    border: 2px solid white;
+    padding: 5px;
+    border-radius:50% ;
+    margin-right:10px ;
+    font-size: 16px;
+}
